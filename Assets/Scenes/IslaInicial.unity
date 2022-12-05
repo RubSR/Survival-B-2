@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.42901474, g: 0.5486936, b: 0.65572405, a: 1}
+  m_IndirectSpecularColor: {r: 0.42901456, g: 0.5486932, b: 0.65572333, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -138,6 +138,7 @@ GameObject:
   - component: {fileID: 44899117}
   - component: {fileID: 44899118}
   - component: {fileID: 44899119}
+  - component: {fileID: 44899120}
   m_Layer: 8
   m_Name: Player
   m_TagString: Player
@@ -416,6 +417,29 @@ MonoBehaviour:
     m_Bits: 512
   cam: {fileID: 963194227}
   mensajeEnPantalla: {fileID: 2020656850}
+--- !u!114 &44899120
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 44899112}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 98f72dd4cc48d442fb3b93c6a787f540, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  uiSlots: []
+  ventanaInventario: {fileID: 0}
+  posicionDrop: {fileID: 0}
+  nombreItem: {fileID: 0}
+  descItem: {fileID: 0}
+  statsnombreItem: {fileID: 0}
+  statscantidadItem: {fileID: 0}
+  usarBoton: {fileID: 0}
+  equiparBoton: {fileID: 0}
+  desequiparBoton: {fileID: 0}
+  dropBoton: {fileID: 0}
 --- !u!1 &134164632
 GameObject:
   m_ObjectHideFlags: 0
